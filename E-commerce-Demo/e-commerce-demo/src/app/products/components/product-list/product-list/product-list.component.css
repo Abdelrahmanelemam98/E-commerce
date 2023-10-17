@@ -1,0 +1,29 @@
+.wrapper-product {
+  width: 100%;
+  margin: 30px 0;
+}
+.inner-wrapper-product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  border: none;
+}
+.product-details h2 a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #474747;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.product-details h2 a:hover {
+  color: red;
+}
+.pro_thumb {
+  margin: 20px;
+}
+.pro_thumb img {
+  width: 100%;
+}

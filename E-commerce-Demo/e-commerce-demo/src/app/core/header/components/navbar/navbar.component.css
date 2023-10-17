@@ -1,0 +1,27 @@
+.navbar {
+  padding: 20px;
+}
+.navbar-brand img {
+  margin-right: 20px;
+}
+.nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+.section-login a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.nav-item :hover {
+  color: red;
+}
+.section-login a:hover {
+  color: red;
+}
